@@ -7,23 +7,53 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DB317806254FC65F00CAAC73 /* MemorySquareLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB317805254FC65F00CAAC73 /* MemorySquareLabel.swift */; };
+		DB31780C25523FA600CAAC73 /* tappedOnTile.wav in Resources */ = {isa = PBXBuildFile; fileRef = DB31780B25523FA600CAAC73 /* tappedOnTile.wav */; };
+		DB31780F255726CC00CAAC73 /* SelectLevelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB31780E255726CC00CAAC73 /* SelectLevelViewController.swift */; };
+		DB3178122558C42700CAAC73 /* TutorialPartOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3178112558C42700CAAC73 /* TutorialPartOneViewController.swift */; };
+		DB317815255A028600CAAC73 /* TutorialPartTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB317814255A028600CAAC73 /* TutorialPartTwoViewController.swift */; };
+		DB495B732533A5E200405D9E /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB495B722533A5E200405D9E /* Config.swift */; };
 		DB88B157252009FA00A3102D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB88B156252009FA00A3102D /* AppDelegate.swift */; };
 		DB88B159252009FA00A3102D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB88B158252009FA00A3102D /* SceneDelegate.swift */; };
-		DB88B15B252009FA00A3102D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB88B15A252009FA00A3102D /* ViewController.swift */; };
+		DB88B15B252009FA00A3102D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB88B15A252009FA00A3102D /* HomeViewController.swift */; };
 		DB88B15E252009FA00A3102D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB88B15C252009FA00A3102D /* Main.storyboard */; };
 		DB88B160252009FB00A3102D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB88B15F252009FB00A3102D /* Assets.xcassets */; };
 		DB88B163252009FB00A3102D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB88B161252009FB00A3102D /* LaunchScreen.storyboard */; };
+		DB88B17225200F3E00A3102D /* PlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB88B17125200F3E00A3102D /* PlayViewController.swift */; };
+		DB88B17525200F4E00A3102D /* TutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB88B17425200F4E00A3102D /* TutorialViewController.swift */; };
+		DB8B4988253C922F00BE7842 /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DB8B4986253C922F00BE7842 /* DataModel.xcdatamodeld */; };
+		DB923A252526A3F1009BF975 /* NumberLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB923A242526A3F1009BF975 /* NumberLabel.swift */; };
+		DB923A282526A936009BF975 /* SquareCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB923A272526A936009BF975 /* SquareCell.swift */; };
+		DBC95B3F252D4FFF00533E4B /* GameTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC95B3E252D4FFF00533E4B /* GameTimer.swift */; };
+		DBEA98F1255A1C000061AF25 /* LastTutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBEA98F0255A1C000061AF25 /* LastTutorialViewController.swift */; };
+		DBEA98F4255CC49B0061AF25 /* GoIndicatorLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBEA98F3255CC49B0061AF25 /* GoIndicatorLabel.swift */; };
+		DBEB2546254F8CDD00CCC94C /* homeViewButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBEB2545254F8CDD00CCC94C /* homeViewButtons.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		DB88B153252009FA00A3102D /* MemorySquare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MemorySquare.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB317805254FC65F00CAAC73 /* MemorySquareLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemorySquareLabel.swift; sourceTree = "<group>"; };
+		DB31780B25523FA600CAAC73 /* tappedOnTile.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = tappedOnTile.wav; sourceTree = "<group>"; };
+		DB31780E255726CC00CAAC73 /* SelectLevelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectLevelViewController.swift; sourceTree = "<group>"; };
+		DB3178112558C42700CAAC73 /* TutorialPartOneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialPartOneViewController.swift; sourceTree = "<group>"; };
+		DB317814255A028600CAAC73 /* TutorialPartTwoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialPartTwoViewController.swift; sourceTree = "<group>"; };
+		DB495B722533A5E200405D9E /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		DB88B153252009FA00A3102D /* Memo Square.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Memo Square.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB88B156252009FA00A3102D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DB88B158252009FA00A3102D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DB88B15A252009FA00A3102D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DB88B15A252009FA00A3102D /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		DB88B15D252009FA00A3102D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DB88B15F252009FB00A3102D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DB88B162252009FB00A3102D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DB88B164252009FB00A3102D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB88B17125200F3E00A3102D /* PlayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayViewController.swift; sourceTree = "<group>"; };
+		DB88B17425200F4E00A3102D /* TutorialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialViewController.swift; sourceTree = "<group>"; };
+		DB8B4987253C922F00BE7842 /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
+		DB923A242526A3F1009BF975 /* NumberLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberLabel.swift; sourceTree = "<group>"; };
+		DB923A272526A936009BF975 /* SquareCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquareCell.swift; sourceTree = "<group>"; };
+		DBC95B3E252D4FFF00533E4B /* GameTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameTimer.swift; sourceTree = "<group>"; };
+		DBEA98F0255A1C000061AF25 /* LastTutorialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LastTutorialViewController.swift; sourceTree = "<group>"; };
+		DBEA98F3255CC49B0061AF25 /* GoIndicatorLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoIndicatorLabel.swift; sourceTree = "<group>"; };
+		DBEB2545254F8CDD00CCC94C /* homeViewButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeViewButtons.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +67,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DB31780A25523F7F00CAAC73 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				DB31780B25523FA600CAAC73 /* tappedOnTile.wav */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		DB495B712533A5BE00405D9E /* DataLevelService */ = {
+			isa = PBXGroup;
+			children = (
+				DB495B722533A5E200405D9E /* Config.swift */,
+			);
+			path = DataLevelService;
+			sourceTree = "<group>";
+		};
 		DB88B14A252009FA00A3102D = {
 			isa = PBXGroup;
 			children = (
@@ -48,7 +94,7 @@
 		DB88B154252009FA00A3102D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DB88B153252009FA00A3102D /* MemorySquare.app */,
+				DB88B153252009FA00A3102D /* Memo Square.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,15 +102,54 @@
 		DB88B155252009FA00A3102D /* MemorySquare */ = {
 			isa = PBXGroup;
 			children = (
+				DB31780A25523F7F00CAAC73 /* Sounds */,
+				DB495B712533A5BE00405D9E /* DataLevelService */,
+				DB88B16D25200ABE00A3102D /* Model */,
+				DB88B16C25200ABA00A3102D /* View */,
+				DB88B16B25200AB300A3102D /* Controller */,
 				DB88B156252009FA00A3102D /* AppDelegate.swift */,
 				DB88B158252009FA00A3102D /* SceneDelegate.swift */,
-				DB88B15A252009FA00A3102D /* ViewController.swift */,
 				DB88B15C252009FA00A3102D /* Main.storyboard */,
 				DB88B15F252009FB00A3102D /* Assets.xcassets */,
 				DB88B161252009FB00A3102D /* LaunchScreen.storyboard */,
 				DB88B164252009FB00A3102D /* Info.plist */,
 			);
 			path = MemorySquare;
+			sourceTree = "<group>";
+		};
+		DB88B16B25200AB300A3102D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DB88B15A252009FA00A3102D /* HomeViewController.swift */,
+				DB88B17125200F3E00A3102D /* PlayViewController.swift */,
+				DB88B17425200F4E00A3102D /* TutorialViewController.swift */,
+				DB31780E255726CC00CAAC73 /* SelectLevelViewController.swift */,
+				DB3178112558C42700CAAC73 /* TutorialPartOneViewController.swift */,
+				DB317814255A028600CAAC73 /* TutorialPartTwoViewController.swift */,
+				DBEA98F0255A1C000061AF25 /* LastTutorialViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		DB88B16C25200ABA00A3102D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DB923A242526A3F1009BF975 /* NumberLabel.swift */,
+				DB923A272526A936009BF975 /* SquareCell.swift */,
+				DBC95B3E252D4FFF00533E4B /* GameTimer.swift */,
+				DBEB2545254F8CDD00CCC94C /* homeViewButtons.swift */,
+				DB317805254FC65F00CAAC73 /* MemorySquareLabel.swift */,
+				DBEA98F3255CC49B0061AF25 /* GoIndicatorLabel.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DB88B16D25200ABE00A3102D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DB8B4986253C922F00BE7842 /* DataModel.xcdatamodeld */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -84,7 +169,7 @@
 			);
 			name = MemorySquare;
 			productName = MemorySquare;
-			productReference = DB88B153252009FA00A3102D /* MemorySquare.app */;
+			productReference = DB88B153252009FA00A3102D /* Memo Square.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -125,6 +210,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB88B163252009FB00A3102D /* LaunchScreen.storyboard in Resources */,
+				DB31780C25523FA600CAAC73 /* tappedOnTile.wav in Resources */,
 				DB88B160252009FB00A3102D /* Assets.xcassets in Resources */,
 				DB88B15E252009FA00A3102D /* Main.storyboard in Resources */,
 			);
@@ -137,7 +223,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB88B15B252009FA00A3102D /* ViewController.swift in Sources */,
+				DB88B17225200F3E00A3102D /* PlayViewController.swift in Sources */,
+				DB8B4988253C922F00BE7842 /* DataModel.xcdatamodeld in Sources */,
+				DB88B15B252009FA00A3102D /* HomeViewController.swift in Sources */,
+				DB495B732533A5E200405D9E /* Config.swift in Sources */,
+				DBEA98F1255A1C000061AF25 /* LastTutorialViewController.swift in Sources */,
+				DB88B17525200F4E00A3102D /* TutorialViewController.swift in Sources */,
+				DB923A252526A3F1009BF975 /* NumberLabel.swift in Sources */,
+				DB923A282526A936009BF975 /* SquareCell.swift in Sources */,
+				DBEA98F4255CC49B0061AF25 /* GoIndicatorLabel.swift in Sources */,
+				DB31780F255726CC00CAAC73 /* SelectLevelViewController.swift in Sources */,
+				DB317815255A028600CAAC73 /* TutorialPartTwoViewController.swift in Sources */,
+				DB3178122558C42700CAAC73 /* TutorialPartOneViewController.swift in Sources */,
+				DBEB2546254F8CDD00CCC94C /* homeViewButtons.swift in Sources */,
+				DB317806254FC65F00CAAC73 /* MemorySquareLabel.swift in Sources */,
+				DBC95B3F252D4FFF00533E4B /* GameTimer.swift in Sources */,
 				DB88B157252009FA00A3102D /* AppDelegate.swift in Sources */,
 				DB88B159252009FA00A3102D /* SceneDelegate.swift in Sources */,
 			);
@@ -294,7 +394,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.AlvinEscobar.MemorySquare;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Memo Square";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -313,7 +413,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.AlvinEscobar.MemorySquare;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Memo Square";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -341,6 +441,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DB8B4986253C922F00BE7842 /* DataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DB8B4987253C922F00BE7842 /* DataModel.xcdatamodel */,
+			);
+			currentVersion = DB8B4987253C922F00BE7842 /* DataModel.xcdatamodel */;
+			path = DataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = DB88B14B252009FA00A3102D /* Project object */;
 }
